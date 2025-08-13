@@ -10,7 +10,7 @@ Find the node in the **BST** that the node's value equals `val` and return the *
 
 
 
-## 🧠 Approach: Two-Pointer Technique
+## 🧠 Approach: Recursive traversing
 
 - If the **current node** is `null` -> the value doesn’t exist, return `null`.
 - If the **current node’s value** matches the **target** -> Found! Return the `node`.
